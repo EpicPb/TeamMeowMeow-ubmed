@@ -1,0 +1,88 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.login{
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.personalInfo{
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#logo{
+  height: 20vh;
+}
+#medcard{
+  height: 20vh;
+  margin-top: 10px;
+}
+#check{
+  /*background-color: #95CFFF;*/
+}
+.circle{
+  border: 2px solid rgb(150, 150, 150);
+  background-color: rgb(150, 150, 150);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+
+}
+p{
+  font-family: sans-serif;
+  color: rgb(143, 143, 143);
+  padding: 5px;
+}
+.pt24{
+  font-size: 24pt;
+}
+.pt16{
+  font-size: 16pt;
+}
+
+input[type=text],input[type=password],input[type=number]{
+  padding: 10px;
+  width: 40%;
+}
+input{
+  margin-top: 20px;
+}
+input[type=submit]{
+  padding: 10px;
+  width: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: #FF9C0D;
+  color: white;
+}
+.blueStrip{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10vh;
+  background-color: #95CFFF;
+  height: 8vh;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+.contact{
+  font-size: 8pt;
+}
+
+
+@media only screen and (max-width: 500px) {
+  input[type=text],input[type=password]{
+    padding: 10px;
+    width: 80%;
+  }
+  input{
+    margin-top: 22px;
+  }
+}

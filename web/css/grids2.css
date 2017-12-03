@@ -1,0 +1,36 @@
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+  box-sizing: border-box;
+  position: relative;
+}
+.column{
+  float: left;
+}
+
+.column-25{
+  width: 25%;
+}
+.column-50{
+  width: 50%;
+}
+.column-60{
+  width: 60%;
+}
+.column-offset-25{
+  margin-left: 25%;
+}
+.column-offset-20{
+  margin-left: 20%;
+}
+.white{
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.red{
+  background-color: red;
+}
